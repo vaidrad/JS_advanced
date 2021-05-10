@@ -12,9 +12,14 @@ button:focus{
     outline: none;
 }
 .logo{
-
     text-transform: uppercase;
     font-weight: bold;
+}
+.logo:hover{
+    transform: scale(2);
+    transition-delay: 0.5s;
+    transition-duration: 1s;
+    color: red;
 }
 .btn-cart{
     background-color: #fafafa;
@@ -33,12 +38,6 @@ button:focus{
 .btn-cart, .logo{
     align-self: center;
 }
-/*.products {*/
-/*display: flex;*/
-/*justify-content: space-between;*/
-/*flex-wrap: wrap;*/
-/*padding: 40px 80px;*/
-/*}*/
 .products{
     column-gap: 30px;
     display: grid;
@@ -160,6 +159,10 @@ img {
 }
 .search-field:focus{
     outline: none;
+    transition-delay: 0.2s;
+    transition-duration: 1s;
+    background-color: #3f3a3d;
+    border-radius: 5px;
 }
 .search-field {
     box-sizing: border-box;
@@ -169,6 +172,7 @@ img {
     background-color: transparent;
     border: none;
     border-bottom: 2px solid #fafafa;
+    
 }
 .error-msg {
     padding: 30px 20px;
@@ -197,3 +201,163 @@ img {
     font-weight: bold;
 }
 
+
+
+.subscribe {
+    margin: 0 auto;
+    width: 100%;
+    background-image: url(../img/photo_subscribe.jpg);
+    background-size: cover;
+  }
+  .wrap_subscribe {
+    height: 448px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .subscribe_feedback {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 7%;
+  }
+  img[alt="subscribe_photo"] {
+    width: 96px;
+    height: 96px;
+    margin-bottom: 30px;
+  }
+  .feedback_text {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #222224;
+  }
+  .subscribe_form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .subscribe_text {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 167.2%;
+    /* or 30px */
+    text-align: center;
+    color: #222224;
+  }
+  .subscribe_h {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 167.2%;
+    /* or 40px */
+  }
+  .subscribe_inp {
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+  }
+  .subscribe_inp_text {
+    background-color: #E1E1E1;
+    height: 49px;
+    width: 256px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #222224;
+    opacity: 0.67;
+    padding-left: 22px;
+    padding-right: 10px;
+    border-bottom-left-radius: 24.5px;
+    border-top-left-radius: 24.5px;
+    border: none;
+  }
+  .subscribe_inp_text:focus {
+    outline: none;
+  }
+  .subscribe_submit {
+    height: 49px;
+    width: 100px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #F16D7F;
+    border-bottom-right-radius: 24.5px;
+    border-top-right-radius: 24.5px;
+    z-index: 1;
+    border: none;
+  }
+  .subscribe_submit:focus {
+    outline: none;
+  }
+  .subscribe_submit:active {
+    box-shadow: 5px 5px 2px 0 rgba(0, 0, 0, 0.1);
+  }
+  .subscribe_submit:hover {
+    cursor: pointer;
+    background-color: #D95768;
+  }
+  .footer {
+    background-color: #222224;
+    color: #fff;
+    height: 79px;
+  }
+  .footer_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 79px;
+    margin: 0 auto;
+  }
+  .copyright {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
+  }
+  .soc_links {
+    display: flex;
+    align-items: center;
+  }
+  .soc_link {
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    margin-right: 7px;
+  }
+  .soc_link a {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+  .soc_link a i {
+    font-size: 15px;
+    color: #000;
+  }
+  .soc_link a i:visited {
+    color: #000;
+  }
+  .soc_link:hover {
+    background-color: #F16D7F;
+  }
+  .soc_link:hover a i {
+    color: #fff;
+  }

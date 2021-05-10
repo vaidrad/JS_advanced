@@ -203,5 +203,35 @@
     {
         "Action": "Added to cart",
         "time": "May 6th 2021, 2:40:49 pm"
+    },
+    {
+        "product_id": "123",
+        "Action": "Change quantity in cart",
+        "time": "May 9th 2021, 10:06:52 pm"
+    },
+    {
+        "product_id": "123",
+        "Action": "Change quantity in cart",
+        "time": "May 9th 2021, 10:06:52 pm"
+    },
+    {
+        "product_id": "123",
+        "Action": "Removed from cart",
+        "time": "May 9th 2021, 10:06:53 pm"
+    },
+    {
+        "product_id": "123",
+        "Action": "Removed from cart",
+        "time": "May 9th 2021, 10:06:53 pm"
+    },
+    {
+        "product_id": "123",
+        "Action": "Removed from cart",
+        "time": "May 9th 2021, 10:06:54 pm"
+    },
+    {
+        "product_id": "457",
+        "Action": "Change quantity in cart",
+        "time": "May 9th 2021, 10:13:18 pm"
     }
 ]
