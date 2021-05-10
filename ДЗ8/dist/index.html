@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Интернет-магазин</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5fe42ad7e8.js" crossorigin="anonymous"></script>
+<script defer src="./build.js"></script></head>
+<body>
+<div id="app">
+    <header>
+        <div class="logo">♥-shop</div>
+        <div class="cart">
+
+            <filter-el></filter-el>
+            <cart ref="cart"></cart>
+        </div>
+    </header>
+    <main>
+        <error ref="error"></error>
+        <products ref="products"></products>
+    </main>
+    <section class="subscribe">
+        <div class="wrap wrap_subscribe">
+            <div class="subscribe_feedback">
+                <img src="img/subscribe_photo.png" alt="subscribe_photo" class="subscribe_photo">
+                <p class="feedback_text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“</p>
+            </div>
+            <div class="subscribe_form">
+                <p class="subscribe_text"><span class="subscribe_h">SUBSCRIBE</span><br>FOR OUR NEWLETTER AND PROMOTION</p>
+                <form action="#" class="subscribe_inp">
+                    <input type="email" value="" class="subscribe_inp_text" placeholder="Enter Your Email">
+                    <input type="submit" value="Subscribe" class="subscribe_submit">
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="wrap footer_wrap">
+            <p class="copyright">
+                &copy; 2021  Brand  All Rights Reserved.
+            </p>
+            <div class="soc_links">
+                <div class="soc_link"><a href="#" class="facebook_footer"><i class="fab fa-facebook-f"></i></a></div>
+                <div class="soc_link"><a href="#" class="instagram_footer"><i class="fab fa-instagram"></i></a></div>
+                <div class="soc_link"><a href="#" class="pinterest_footer"><i class="fab fa-pinterest-p"></i></a></div>
+                <div class="soc_link"><a href="#" class="twitter_footer"><i class="fab fa-twitter"></i></a></div>
+            </div>
+        </div>
+    </footer>
+</div>
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="js/ProductComponent.js"></script>
+<script src="js/CartComponent.js"></script>
+<script src="js/FilterComp.js"></script>
+<script src="js/ErrorComp.js"></script>
+    <script src="js/main.js"></script>
+    <script src="build.js"></script>
+</body>
+</html>
